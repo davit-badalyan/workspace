@@ -1,0 +1,9 @@
+{
+    "name": "@learn/test2",
+    "version": "1.0.0",
+    "description": "Coding Math",
+    "main": "./dist/index.js",
+    "scripts": {
+        "start": "parcel index.html -p 8080"
+    }
+}
