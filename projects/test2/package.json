@@ -1,7 +1,7 @@
 {
     "name": "@workspace/test2",
     "version": "1.0.0",
-    "description": "Coding Math",
+    "description": "Description",
     "main": "./dist/index.js",
     "scripts": {
         "start": "parcel index.html -p 8080"
