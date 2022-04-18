@@ -1,5 +1,5 @@
 {
-    "name": "@learn/test2",
+    "name": "@workspace/test2",
     "version": "1.0.0",
     "description": "Coding Math",
     "main": "./dist/index.js",

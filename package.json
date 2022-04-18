@@ -1,9 +1,9 @@
 {
-    "name": "learn",
-    "description": "Monorepo for Learning",
+    "name": "workspace",
+    "description": "Workspace For Learning",
     "scripts": {
-        "start:test1": "npm run start --workspace=@learn/test1",
-        "start:test2": "npm run start --workspace=@learn/test2"
+        "start:test1": "npm run start --workspace=@workspace/test1",
+        "start:test2": "npm run start --workspace=@workspace/test2"
     },
     "devDependencies": {
         "@babel/core": "^7.17.8",
