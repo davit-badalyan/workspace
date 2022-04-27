@@ -1,0 +1,12 @@
+{
+    "name": "@workspace/pixi-viewport",
+    "version": "1.0.0",
+    "description": "pixi-viewport",
+    "main": "./dist/index.js",
+    "scripts": {
+        "start": "parcel index.html -p 8080"
+    },
+    "dependencies": {
+        "pixi-viewport": "^4.34.4"
+    }
+}

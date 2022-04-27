@@ -1,0 +1,25 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist",
+
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+
+        "strict": true,
+        "strictNullChecks": false,
+        "skipLibCheck": true,
+
+        "declaration": true,
+        "sourceMap": true,
+
+        "allowJs": true,
+        "resolveJsonModule": true
+    },
+
+    "include": ["src"],
+    "exclude": ["dist"]
+}

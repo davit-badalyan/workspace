@@ -3,7 +3,8 @@
     "description": "Workspace For Learning",
     "scripts": {
         "start:test1": "npm run start --workspace=@workspace/test1",
-        "start:test2": "npm run start --workspace=@workspace/test2"
+        "start:test2": "npm run start --workspace=@workspace/test2",
+        "start:pixi-viewport": "npm run start --workspace=@workspace/pixi-viewport"
     },
     "devDependencies": {
         "@babel/core": "^7.17.8",
