@@ -4,11 +4,13 @@
     "scripts": {
         "start:test1": "npm run start --workspace=@workspace/test1",
         "start:test2": "npm run start --workspace=@workspace/test2",
-        "start:pixi-viewport": "npm run start --workspace=@workspace/pixi-viewport"
+        "start:pixi-viewport": "npm run start --workspace=@workspace/pixi-viewport",
+        "start:shader": "npm run start --workspace=@workspace/shader"
     },
     "devDependencies": {
         "@babel/core": "^7.17.8",
         "@babel/preset-env": "^7.16.11",
+        "@parcel/transformer-glsl": "^2.4.1",
         "@typescript-eslint/eslint-plugin": "^5.14.0",
         "@typescript-eslint/parser": "^5.14.0",
         "buffer": "^6.0.3",
